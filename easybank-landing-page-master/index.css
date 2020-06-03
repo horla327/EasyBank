@@ -1,0 +1,127 @@
+
+body {
+    font-size: 16px;
+    font-family: 'Public sans', sans-serif;
+    font-weight: 300;
+}
+nav {
+    background-color: #fff;
+    position:relative;
+    z-index: 3;
+
+}
+.navbar-nav {
+    margin-left: 250px;
+}
+.navbar-nav li:hover {
+    border-bottom:2px solid  hsl(136, 65%, 51%);
+}
+.bts {
+    display: block;
+    border-radius: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border: transparent;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+.land-1 {
+    margin-top: 160px;
+}
+.landing {
+    background-color: rgb(250, 250, 250);
+    position: relative;
+    z-index: 2;
+}
+
+/*.landing img.img1 {
+    position: absolute;
+    right: 0;
+    bottom: 7rem;
+}
+
+.landing img.img2 {
+    position: relative;
+    right: 0;
+    bottom: 2rem;
+    z-index: 2;
+    display: block;
+}*/
+.why {
+    background-color:  hsl(220, 16%, 96%);
+}
+.articles{
+    background-color: hsl(0, 0%, 100%);
+    height: fit-content;
+    padding-bottom: 40px;
+}
+.inner{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border: none !important;
+    transition: transform .5s;
+}
+.footer {
+    background-color: hsl(233, 26%, 24%);
+}
+.quick-links1 {
+    padding-top: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .landing-mobile {
+        display:none;
+    }
+}
+
+/* media query for mobile screens*/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .footer {
+        text-align: center;
+    }
+    .bts {
+        text-align: center;
+        display: inline;
+    }
+    .quick-links {
+        padding-bottom: 0!important;
+    }
+    .why, .arti {
+        text-align: center;
+    }
+    .mobile {
+        display:none
+    }
+    .landing {
+        display: none;
+    }
+    .landing-image {
+        margin-bottom: 0;
+    }
+    .land-2 {
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    .mob-cont {
+        text-align: justify;
+        font-size: 15px;
+    }
+    .img1 {
+        position: absolute;
+        right: 0;
+        bottom: 3rem;
+    }
+    
+    .img2 {
+        position: relative;
+        right: 0;
+        bottom: 7rem;
+        z-index: 2;
+        display: block;
+    }
+    .quick-links1{
+        padding-top: 0;
+    }
+}
