@@ -34,22 +34,23 @@ nav {
 .landing {
     background-color: rgb(250, 250, 250);
     position: relative;
-    z-index: 2;
+    z-index: ;
 }
+.con1 {
+    position: relative;
 
-/*.landing img.img1 {
-    position: absolute;
+}
+.img1 {
     right: 0;
     bottom: 7rem;
 }
 
-.landing img.img2 {
-    position: relative;
+.img2 {
+    position: absolute;
     right: 0;
     bottom: 2rem;
-    z-index: 2;
-    display: block;
-}*/
+    z-index
+}
 .why {
     background-color:  hsl(220, 16%, 96%);
 }
